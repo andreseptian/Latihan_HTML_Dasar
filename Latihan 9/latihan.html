@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+
+<body>
+    <form action="">
+        <table cellspacing="0" cellpadding="5">
+            <tr>
+                <td><label for="username">username : </label></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">password : </label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" name="hobi" id="menyanyi"><label for="menyanyi">menyanyi</label>
+                    <input type="checkbox" name="hobi" id="olahraga"><label for="olahraga">olahraga</label></td>
+
+            </tr>
+            <tr>
+                <td><label for="kota">Dropdown :</label></td>
+                <td><select name="" id="kota">
+                        <option value="Ngawi">Ngawi</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Yogyakarta">Yogyakarta</option>
+                        <option value="Bantul">Bantul</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="area">Text Area : </label></td>
+                <td><textarea name="" id="area"></textarea></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td colspan="2"><button type="submit">Kirim!</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
